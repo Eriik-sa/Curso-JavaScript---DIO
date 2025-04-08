@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viagem calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="numero_par.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container_calculadora">
+            <h1>calculadora de viagem</h1>
+
+            <label>
+                <input type="radio" name="combustivel" value="gasolina" checked> Gasolina
+            </label>
+
+            <label>
+                <input type="radio" name="combustivel" id="diesel"> Diesel
+            </label>
+        </div>
+        <div>
+            <label for="distancia">
+                Distancia em KM: <input id="distancia" placeholder="Digite a distancia em km"> <button
+                    onclick="calcular()"> Calcular</button>
+            </label>
+        </div>
+        <div class="resultado" id="resultado">
+            <p>O resultado é:</p>
+        </div>
+    </header>
+</body>
+
+</html>
