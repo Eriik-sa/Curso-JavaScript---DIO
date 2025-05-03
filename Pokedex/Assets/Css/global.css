@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 1;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+ol.pokemons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+ol.pokemons li {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+ol.pokemons li img {
+    max-width: 100%;
+    height: fit-content;
+    align-self: flex-end;
+}
+
+.grass {
+    background-color: #14A06F;
+}
+
+.fire {
+    background-color: #E35825;
+}
+
+.water {
+    background-color: #1479A0;
+}
+
+.poison {
+    background-color: #6B246E;
+}
+
+.bug {
+    background-color: #7AC74C;
+}
